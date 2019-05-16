@@ -1,0 +1,11 @@
+  <template>
+   <div>
+    <v-carousel style="height:80vh">
+   <v-carousel-item style="height:80vh"
+    v-for="(item,i) in items"
+     :key="i"
+      :src="item.src"
+   ></v-carousel-item>
+ </v-carousel>
+      </div> 
+      </template>
